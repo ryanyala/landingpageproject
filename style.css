@@ -79,6 +79,73 @@ body {
     font-size: 18px;
 }
 
+.second {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.second .text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.second .secondary{
+    color: #1F2937;
+    display: flex;
+    text-align: center;
+    
+}
+
+.second .container{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.second .container .subcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.square {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10%;
+    border-color: #3882F6;
+    height: 150px;
+    width: 150px;
+
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bigquote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.sourceofquote{
+    align-self:flex-end;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
 
 .header ul{
     display: flex;
