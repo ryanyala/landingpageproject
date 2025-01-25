@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header, .card, .footer {
+    padding: 0px 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    height: 75px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    
+}
+
+.first{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+}
+
+.first .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 1 100%;
+    gap: 20px;
+    padding-right: 50px;
+    
+}
+.first .image{
+    display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 100%;
+}
+
+.first .container .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first .container button{
+    box-sizing: content-box;
+    width: 125px;
+    border: none;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 15px;
+
+    color: white;
+    font-size: 18px;
+}
+
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
